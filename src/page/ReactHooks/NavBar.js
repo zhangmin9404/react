@@ -7,6 +7,7 @@ export const Navbar = () => {
   const { userName } = React.useContext(AppContext)
   return (
     <div>
+      <h1>NavBar</h1>
       {userName}
     </div>
   )
