@@ -1,12 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, FuncButton } from './page/ReactHooks'
+import Demo from './page/ReactHooks/entry'
+import 'antd/dist/antd.less';
 
-import test1 from './page/Svg/text1.svg'
-import { Navbar } from './page/ReactHooks/NavBar';
-import { Message } from './page/ReactHooks/Message';
-import { Example } from './page/ReactHooks/UseEffect';
+import {
+  Route,
+  HashRouter as Router,
+  Switch,
+  Redirect
+
+} from 'react-router-dom'
+import AreaCode from './page/src/cascade/areaCodeCom';
+// import ButtonWithRouter from './page/ReactHooks/buttonWithRouter'
 
 export const AppContext = React.createContext({});
 
@@ -19,21 +25,16 @@ const Hello = (props) => {
 }
 const App = () => {
   return (
-    <div className="App">
-      <Button />
-      <FuncButton />
-      <AppContext.Provider value={{ userName: '测试共享数据' }}>
-        <Navbar />
-        <Message />
-      </AppContext.Provider>
+    <Router>
+      <Switch>
+        <Route path={'/demo'} component={Demo} />
+        <Route path={'/AreaCode'} component={AreaCode} />
 
-      <Example />
-      -----------------------------------
+        <Redirect exact from={'/'} to={'/demo'} />
+        <Route render={() => <div className="FBV FBAC FBJC" style={{ fontSize: 100 }}>404</div>} />
+      </Switch>
 
-      <Hello name='hooks test' />
-
-
-    </div>
+    </Router>
   )
 }
 
