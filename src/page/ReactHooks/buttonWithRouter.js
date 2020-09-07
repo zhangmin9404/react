@@ -52,11 +52,11 @@ export const ButtonWithRouter = () => {
   const history = useHistory();
   console.log('history', history)
   return (
-    <button
+    <Button
       type='button'
       onClick={() => { history.push('/new-location') }}
     >
       Click Me!
-    </button>
+    </Button>
   )
 }

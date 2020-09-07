@@ -29,8 +29,11 @@ const App = () => {
       -----------------------------------
 
       <Hello name='hooks test' />
-      {/* <AreaCode /> */}
-      <ButtonWithRouter />
+      级联动态加载数据:
+      <AreaCode />
+      <div>
+        <ButtonWithRouter />
+      </div >
     </div>
   )
 }

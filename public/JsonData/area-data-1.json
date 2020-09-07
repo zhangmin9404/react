@@ -1,0 +1,175 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "areaCode": 440500,
+      "areaName": "汕头市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 79,
+      "areaCode": 440600,
+      "areaName": "佛山市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 126,
+      "areaCode": 441200,
+      "areaName": "肇庆市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 242,
+      "areaCode": 441300,
+      "areaName": "惠州市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 330,
+      "areaCode": 440300,
+      "areaName": "深圳市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 412,
+      "areaCode": 440800,
+      "areaName": "湛江市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 559,
+      "areaCode": 440400,
+      "areaName": "珠海市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 595,
+      "areaCode": 445100,
+      "areaName": "潮州市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 656,
+      "areaCode": 440900,
+      "areaName": "茂名市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 788,
+      "areaCode": 440700,
+      "areaName": "江门市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 876,
+      "areaCode": 441600,
+      "areaName": "河源市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 983,
+      "areaCode": 445300,
+      "areaName": "云浮市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1061,
+      "areaCode": 441500,
+      "areaName": "汕尾市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1130,
+      "areaCode": 441700,
+      "areaName": "阳江市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1206,
+      "areaCode": 445200,
+      "areaName": "揭阳市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1321,
+      "areaCode": 441400,
+      "areaName": "梅州市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1448,
+      "areaCode": 440100,
+      "areaName": "广州市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1634,
+      "areaCode": 440200,
+      "areaName": "韶关市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1761,
+      "areaCode": 441800,
+      "areaName": "清远市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1860,
+      "areaCode": 442000,
+      "areaName": "中山市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1885,
+      "areaCode": 441900,
+      "areaName": "东莞市",
+      "parentAreaCode": 440000,
+      "areaLevel": "city",
+      "deployedCentralSystemQuantity": 0
+    }
+  ],
+  "code": "200",
+  "message": "成功",
+  "success": true
+}

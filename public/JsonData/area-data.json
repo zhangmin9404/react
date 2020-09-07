@@ -1,0 +1,279 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "areaCode": 440000,
+      "areaName": "广东省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 1921,
+      "areaCode": 410000,
+      "areaName": "河南省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 4620,
+      "areaCode": 150000,
+      "areaName": "内蒙古自治区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 5964,
+      "areaCode": 230000,
+      "areaName": "黑龙江省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 7931,
+      "areaCode": 650000,
+      "areaName": "新疆维吾尔自治区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 9463,
+      "areaCode": 420000,
+      "areaName": "湖北省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 11076,
+      "areaCode": 210000,
+      "areaName": "辽宁省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 12755,
+      "areaCode": 370000,
+      "areaName": "山东省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 14748,
+      "areaCode": 610000,
+      "areaName": "陕西省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 16185,
+      "areaCode": 310000,
+      "areaName": "上海市",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 16432,
+      "areaCode": 520000,
+      "areaName": "贵州省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 18058,
+      "areaCode": 500000,
+      "areaName": "重庆市",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 19126,
+      "areaCode": 540000,
+      "areaName": "西藏自治区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 19897,
+      "areaCode": 340000,
+      "areaName": "安徽省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 21651,
+      "areaCode": 350000,
+      "areaName": "福建省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 22929,
+      "areaCode": 430000,
+      "areaName": "湖南省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 25114,
+      "areaCode": 460000,
+      "areaName": "海南省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 25438,
+      "areaCode": 320000,
+      "areaName": "江苏省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 26995,
+      "areaCode": 630000,
+      "areaName": "青海省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 27466,
+      "areaCode": 450000,
+      "areaName": "广西壮族自治区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 28877,
+      "areaCode": 640000,
+      "areaName": "宁夏回族自治区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 29168,
+      "areaCode": 360000,
+      "areaName": "江西省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 31063,
+      "areaCode": 330000,
+      "areaName": "浙江省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 32539,
+      "areaCode": 130000,
+      "areaName": "河北省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 35028,
+      "areaCode": 810000,
+      "areaName": "香港特别行政区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 35047,
+      "areaCode": 140000,
+      "areaName": "山西省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 36641,
+      "areaCode": 710000,
+      "areaName": "台湾省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 36642,
+      "areaCode": 820000,
+      "areaName": "澳门特别行政区",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 36651,
+      "areaCode": 620000,
+      "areaName": "甘肃省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 38169,
+      "areaCode": 510000,
+      "areaName": "四川省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 42453,
+      "areaCode": 530000,
+      "areaName": "云南省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 44013,
+      "areaCode": 110000,
+      "areaName": "北京市",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 44366,
+      "areaCode": 120000,
+      "areaName": "天津市",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    },
+    {
+      "id": 44689,
+      "areaCode": 220000,
+      "areaName": "吉林省",
+      "parentAreaCode": 0,
+      "areaLevel": "province",
+      "deployedCentralSystemQuantity": 0
+    }
+  ],
+  "code": "200",
+  "message": "成功",
+  "success": true
+}

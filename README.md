@@ -15,3 +15,5 @@
  引入antd样式:  `import 'antd/dist/antd.css'; `
 
  安装插件 jsx
+
+ mock数据 json数据要放在public文件夹下

@@ -7,7 +7,6 @@ import { withRouter } from 'react-router-dom'
 import utilConfig from "../../../util/request.config.util";
 // import { arearegionApi } from '../../services/api'
 
-
 const requestUrl = utilConfig.baseData.getAddr() + '/api/v1'
 
 const AreaCode = (history) => {
@@ -15,18 +14,13 @@ const AreaCode = (history) => {
   const [_, reRender] = useState(1)
   const areaList = useRef([])
   const getOption = (code) => {
-    // arearegionApi({ parentAreaCode: code }).then(response => {
-    //   if (response.success) {
-    //     const { data = [] } = response
-    //     areaList.current = data.map((i) => ({ ...i, isLeaf: false }))
-    //     reRender(pre => ++pre)
-
-    //   }
-    // })
     axios({
-      method: 'POST',
-      url: requestUrl + '/central/instance/region',
-      data: { parentAreaCode: code }
+      method: 'GET',
+      // method: 'POST',
+      // url: requestUrl + '/central/instance/region',
+      url: 'http://localhost:3000/JsonData/area-data.json',
+      data: { parentAreaCode: code },
+      dataType: 'json'
     })
       .then(response => {
         if (response.data.success) {
@@ -43,18 +37,9 @@ const AreaCode = (history) => {
   const loadData = (selectedOptions) => {
     const targetOption = selectedOptions[selectedOptions.length - 1];
     targetOption.loading = true;
-    // arearegionApi({ parentAreaCode: targetOption.areaCode }).then(response => {
-    //   if (response.success) {
-    //     const { data = [] } = response
-    //     targetOption.loading = false;
-    //     targetOption.children = data.map((i) => ({ ...i, isLeaf: i.areaLevel === 'street' }))
-    //     reRender(pre => ++pre)
-
-    //   }
-    // })
     axios({
-      method: 'POST',
-      url: requestUrl + '/central/instance/region',
+      method: 'GET',
+      url: 'http://localhost:3000/JsonData/area-data-1.json',
       data: { parentAreaCode: targetOption.areaCode }
     })
       .then(response => {
@@ -73,6 +58,7 @@ const AreaCode = (history) => {
   useEffect(() => {
     getOption(0)
   }, [])
+  console.log('1-', _)
   return <Cascader
     // {...props}
     changeOnSelect={true}
