@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react';
 
-class Button extends Component {
+class ButtonDefault extends Component {
   constructor() {
     super();
     this.state = { buttonText: 'Click me, please' };
@@ -32,6 +32,6 @@ export default function FuncButton () {
 
 export {
   FuncButton,
-  Button,
+  ButtonDefault,
 
 }

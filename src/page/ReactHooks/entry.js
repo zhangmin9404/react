@@ -1,9 +1,12 @@
 import React from 'react';
-import { Button, FuncButton } from './index'
+import { ButtonDefault, FuncButton } from './index'
+import { Button } from 'antd'
 import { Navbar } from './NavBar';
 import { Message } from './Message';
 import { Example } from './UseEffect';
 import AreaCode from '../src/cascade/areaCodeCom';
+import { useHistory } from 'react-router-dom'
+
 
 import { ButtonWithRouter } from './buttonWithRouter'
 export const AppContext = React.createContext({});
@@ -16,9 +19,10 @@ const Hello = (props) => {
 
 }
 const App = () => {
+  const history = useHistory()
   return (
     <div className="App">
-      <Button />
+      <ButtonDefault />
       <FuncButton />
       <AppContext.Provider value={{ userName: '测试共享数据' }}>
         <Navbar />
@@ -34,6 +38,8 @@ const App = () => {
       <div>
         <ButtonWithRouter />
       </div >
+      <Button onClick={() => { history.push('/pre-next') }}>上一个下一个</Button>
+
     </div>
   )
 }

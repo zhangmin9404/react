@@ -10,6 +10,8 @@
 
 ` npm install antd`
 
+`npm i --save lodash`
+
 
 
  引入antd样式:  `import 'antd/dist/antd.css'; `

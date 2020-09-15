@@ -6,13 +6,15 @@ import 'antd/dist/antd.less';
 
 import {
   Route,
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Redirect
 
 } from 'react-router-dom'
 import AreaCode from './page/src/cascade/areaCodeCom';
 // import ButtonWithRouter from './page/ReactHooks/buttonWithRouter'
+import PreNext from './page/src/PreNext/index';
+import PreNextDetail from './page/src/PreNext/detail';
 
 export const AppContext = React.createContext({});
 
@@ -29,6 +31,9 @@ const App = () => {
       <Switch>
         <Route path={'/demo'} component={Demo} />
         <Route path={'/AreaCode'} component={AreaCode} />
+        <Route path={'/pre-next/detail'} component={PreNextDetail} />
+
+        <Route path={'/pre-next'} component={PreNext} />
 
         <Redirect exact from={'/'} to={'/demo'} />
         <Route render={() => <div className="FBV FBAC FBJC" style={{ fontSize: 100 }}>404</div>} />

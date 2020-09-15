@@ -1,0 +1,92 @@
+{
+  "data": {
+    "total": 5,
+    "size": 10,
+    "page": 1,
+    "items": [
+      {
+        "certificateStatus": 1,
+        "zsCode": 10000158,
+        "zsId": 12,
+        "indicatorQuantity": 0,
+        "modifyTime": "2020-09-09 18:14:43",
+        "contactsUserPhone": "150****4479",
+        "dataSheetQuantity": 0,
+        "contactsUserEmail": null,
+        "name": "重庆市重庆城区合川区",
+        "connectionStatus": 1,
+        "apiQuantity": 0,
+        "contactsUserName": "重庆人",
+        "shortName": "重庆城区合川区",
+        "zsInterconnectedApplyId": null
+      },
+      {
+        "certificateStatus": 1,
+        "zsCode": 10000156,
+        "zsId": 10,
+        "indicatorQuantity": 0,
+        "modifyTime": "2020-09-09 11:44:41",
+        "contactsUserPhone": "150****4479",
+        "dataSheetQuantity": 0,
+        "contactsUserEmail": null,
+        "name": "浙江省温州市",
+        "connectionStatus": 1,
+        "apiQuantity": 0,
+        "contactsUserName": "张三",
+        "shortName": "温州市",
+        "zsInterconnectedApplyId": null
+      },
+      {
+        "certificateStatus": 1,
+        "zsCode": 10000132,
+        "zsId": 3,
+        "indicatorQuantity": 0,
+        "modifyTime": "2020-09-08 14:30:51",
+        "contactsUserPhone": "150****4479",
+        "dataSheetQuantity": 0,
+        "contactsUserEmail": null,
+        "name": "广东省汕头市",
+        "connectionStatus": 1,
+        "apiQuantity": 0,
+        "contactsUserName": "张三",
+        "shortName": "汕头市",
+        "zsInterconnectedApplyId": null
+      },
+      {
+        "certificateStatus": 1,
+        "zsCode": 10000131,
+        "zsId": 2,
+        "indicatorQuantity": 0,
+        "modifyTime": "2020-09-09 11:37:06",
+        "contactsUserPhone": "150****4479",
+        "dataSheetQuantity": 0,
+        "contactsUserEmail": null,
+        "name": "广东省汕头市澄海区",
+        "connectionStatus": 1,
+        "apiQuantity": 0,
+        "contactsUserName": "李四",
+        "shortName": "汕头市澄海区",
+        "zsInterconnectedApplyId": null
+      },
+      {
+        "certificateStatus": 1,
+        "zsCode": 10000130,
+        "zsId": 1,
+        "indicatorQuantity": 0,
+        "modifyTime": "2020-09-08 14:26:32",
+        "contactsUserPhone": "150****4479",
+        "dataSheetQuantity": 0,
+        "contactsUserEmail": null,
+        "name": "广东省汕头市潮阳区",
+        "connectionStatus": 1,
+        "apiQuantity": 0,
+        "contactsUserName": "王武",
+        "shortName": "汕头市潮阳区",
+        "zsInterconnectedApplyId": null
+      }
+    ]
+  },
+  "code": "200",
+  "message": "成功",
+  "success": true
+}
