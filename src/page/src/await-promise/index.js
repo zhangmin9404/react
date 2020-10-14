@@ -1,9 +1,8 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { Table, Card, Button, Modal, message, Divider, Dropdown, Menu, } from 'antd'
-import { apiColumn } from './apiColumn'
 import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import './index.styl'
+// import './index.styl'
 import axios from 'axios';
 
 
@@ -89,6 +88,8 @@ const SearchTable = (props) => {
 
   useEffect(() => {
     getData()
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageParams, searchValue])
 
 
@@ -145,7 +146,6 @@ const SearchTable = (props) => {
     setAllSelectedRows(allSelectedRows)
   };
 
-  const newColumn = apiColumn({ pageParams }).concat(option);
   const rowSelection = {
     selectedRowKeys: selectedAPIRowKeys,
     onChange: onRowSelectionChange,
@@ -156,14 +156,14 @@ const SearchTable = (props) => {
   return (
     <div bordered='false'>
       <Card bordered={false}>
-        <Table
+        {/* <Table
           rowKey='id'
           rowSelection={rowSelection}
           columns={newColumn}
           dataSource={tableData}
           pagination={pagination}
           scroll={{ x: 1150 }}
-        />
+        /> */}
       </Card>
     </div>
   )

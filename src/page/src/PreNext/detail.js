@@ -20,7 +20,6 @@ import { isEmpty, get } from 'lodash'
 
 const PreNextDetail = (props) => {
   const history = useHistory()
-  console.log(history.location)
   const { total, params, index } = history.location.state
   const [info, setInfo] = useState({})
   const [queryParams, setQueryParams] = useState({ total, params, spinning: false, isInit: true })
@@ -34,11 +33,11 @@ const PreNextDetail = (props) => {
         data: queryParams.params
       })
         .then(res => {
-          const { data: { items = [], total = 0 } } = res
+          const { data: { items = [], total = 0 } } = res.data
+          console.log(items)
           if (get(items, '0')) {
             setInfo(get(items, '0'))
           } else {
-            history.push({ pathname: '/centre-interconnect/interconnect-apply' })
             setQueryParams((pre) => ({ ...pre, total }))
           }
         })
@@ -60,15 +59,7 @@ const PreNextDetail = (props) => {
     }
   }, [history, queryParams.isInit, queryParams.params, queryParams.spinning])
 
-  // useEffect(() => {
-  //   // setInfo(history.location.state.item)
-  //   setQueryParams({
-  //     total,
-  //     params: { ...params, page: (params.page - 1) * params.size + index + 1, size: 1 },
-  //     isInit: true,
-  //     spinning: false
-  //   })
-  // }, [history.location.state.item, index, params, total])
+  
   const handleState = async (state, text) => {
     // const result = await confirmCom(state, info)
     // const postData = {

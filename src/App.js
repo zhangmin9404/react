@@ -15,6 +15,8 @@ import AreaCode from './page/src/cascade/areaCodeCom';
 // import ButtonWithRouter from './page/ReactHooks/buttonWithRouter'
 import PreNext from './page/src/PreNext/index';
 import PreNextDetail from './page/src/PreNext/detail';
+import AwaitPromise from './page/src/await-promise/index'
+import EchartDemo from './page/src/echart-demo/china'
 
 export const AppContext = React.createContext({});
 
@@ -34,6 +36,8 @@ const App = () => {
         <Route path={'/pre-next/detail'} component={PreNextDetail} />
 
         <Route path={'/pre-next'} component={PreNext} />
+        <Route path={'/await-promise'} component={AwaitPromise} />
+        <Route path={'/echart-demo'} component={EchartDemo} />
 
         <Redirect exact from={'/'} to={'/demo'} />
         <Route render={() => <div className="FBV FBAC FBJC" style={{ fontSize: 100 }}>404</div>} />

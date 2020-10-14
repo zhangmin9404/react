@@ -40,6 +40,14 @@ const App = () => {
       </div >
       <Button onClick={() => { history.push('/pre-next') }}>上一个下一个</Button>
 
+      <div style={{ marginTop: '16px' }}>
+        <Button onClick={() => { history.push('/await-promise') }}>await</Button>
+      </div>
+      <div style={{ marginTop: '16px' }}>
+        <Button onClick={() => { history.push('/echart-demo') }}>echartDemo</Button>
+      </div>
+
+
     </div>
   )
 }
