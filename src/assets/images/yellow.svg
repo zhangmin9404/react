@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>中枢节点_黄色</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="76.9444054%" id="radialGradient-1">
+            <stop stop-color="#FDBC02" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FDBC02" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="16.9344" cy="16.9344" r="16.9344"></circle>
+        <filter x="-3.0%" y="-3.0%" width="105.9%" height="105.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="0.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.992156863   0 0 0 0 0.737254902   0 0 0 0 0.00784313725  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M22.4281059,18.1946137 C22.2312373,17.9919538 22.0981253,17.7512436 22.014916,17.4969776 L19.2980888,17.4969776 C19.1394113,17.9789273 18.8430514,18.393745 18.4607686,18.6993523 L20.2356714,21.8640765 C20.5055231,21.7994734 20.7921423,21.7924162 21.0785617,21.8713689 C22.0088317,22.1281048 22.5612179,23.1125583 22.3118186,24.0704295 C22.0626192,25.0283007 21.1060696,25.5966719 20.175571,25.339936 C19.2450439,25.0834353 18.6929148,24.0989819 18.9423426,23.1411106 C19.0206959,22.8395025 19.1749744,22.5825313 19.3708433,22.3715791 L17.5643193,19.15075 C17.3637944,19.2043555 17.1562425,19.2404356 16.9391785,19.2404356 C16.4320675,19.2404356 15.9609482,19.0836182 15.5672395,18.81562 L11.7408124,22.7545806 C11.8734102,23.0078467 11.9556483,23.2928998 11.9556483,23.6010064 C11.9556483,24.5924583 11.1748008,25.3965408 10.2114241,25.3965408 C9.24804752,25.3965408 8.4672,24.5924583 8.4672,23.6010064 C8.4672,22.6090547 9.24804752,21.8054427 10.2114241,21.8054427 C10.5116974,21.8054427 10.79009,21.8905999 11.0368328,22.0283922 L14.8620601,18.0906373 C14.6004922,17.6848175 14.4474134,17.1986041 14.4474134,16.6753403 C14.4474134,16.1488125 14.6019204,15.6598351 14.866202,15.2525156 L11.9785287,12.2802184 C11.6799694,12.4635886 11.3319929,12.5712995 10.9589651,12.5712995 C9.85810605,12.5712995 8.96557015,11.6524783 8.96557015,10.5192351 C8.96557015,9.38575658 9.85813464,8.4672 10.9589651,8.4672 C12.0598242,8.4672 12.9523886,9.38575658 12.9523886,10.5192351 C12.9523886,10.8962379 12.8518691,11.2484228 12.6793376,11.5522657 L15.5733238,14.5311202 C15.9658328,14.2655921 16.4344955,14.1103038 16.9391785,14.1103038 C17.2000323,14.1103038 17.4511741,14.1518826 17.6874336,14.2282771 L19.2299331,11.478106 C19.089023,11.3087621 18.9783058,11.1088661 18.9184911,10.8791829 C18.7048263,10.05831 19.1781166,9.21414838 19.9757888,8.99419821 C20.2690065,8.91330477 20.5648808,8.92956578 20.8330472,9.02151551 C20.9386513,9.00675417 21.3189916,9.23370275 21.3591252,9.33615011 C21.568391,9.52875352 21.7287538,9.78251957 21.8066214,10.0823634 C22.0205147,10.9034714 21.5469674,11.7473979 20.7495522,11.9675833 C20.5276608,12.0287165 20.3054838,12.0301868 20.09379,11.990137 L18.558346,14.7277815 C19.044519,15.1566255 19.3662159,15.7746031 19.4197463,16.4709747 L21.9810667,16.4709747 C22.0567635,16.1728952 22.2010443,15.8888419 22.4280774,15.6553654 C23.1091766,14.9539655 24.2134063,14.9539655 24.8947626,15.6553654 C25.2475951,16.0185772 25.4138137,16.498792 25.4009024,16.9749488 C25.4018736,17.0215559 25.3972461,17.0578712 25.3899621,17.0931867 C25.3531991,17.4949781 25.1936075,17.8870069 24.8947911,18.1946137 C24.2134062,18.895749 23.1091766,18.895749 22.4281059,18.1946137 Z" id="path-4"></path>
+        <filter x="-47.2%" y="-41.3%" width="194.5%" height="194.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大屏首页备份-6" transform="translate(-932.000000, -525.000000)">
+            <g id="编组-4" transform="translate(420.000000, 128.000000)">
+                <g id="编组-43">
+                    <g id="编组-3" transform="translate(420.000000, 172.800000)">
+                        <g id="编组-41备份-4" transform="translate(80.400000, 212.400000)">
+                            <g id="编组-8" transform="translate(11.600000, 11.800000)">
+                                <g id="编组-7">
+                                    <g id="椭圆形">
+                                        <use fill-opacity="0.6" fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    </g>
+                                    <g id="路径">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                        <path stroke="#FDBC02" stroke-width="4.41766957" d="" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -16,7 +16,7 @@ import AreaCode from './page/src/cascade/areaCodeCom';
 import PreNext from './page/src/PreNext/index';
 import PreNextDetail from './page/src/PreNext/detail';
 import AwaitPromise from './page/src/await-promise/index'
-import EchartDemo from './page/src/echart-demo/china'
+import EchartDemo from './page/src/echart-demo/chinareactechart.js'
 
 export const AppContext = React.createContext({});
 
@@ -39,7 +39,7 @@ const App = () => {
         <Route path={'/await-promise'} component={AwaitPromise} />
         <Route path={'/echart-demo'} component={EchartDemo} />
 
-        <Redirect exact from={'/'} to={'/demo'} />
+        <Redirect exact from={'/'} to={'/echart-demo'} />
         <Route render={() => <div className="FBV FBAC FBJC" style={{ fontSize: 100 }}>404</div>} />
       </Switch>
 
