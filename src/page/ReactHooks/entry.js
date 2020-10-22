@@ -6,6 +6,7 @@ import { Message } from './Message';
 import { Example } from './UseEffect';
 import AreaCode from '../src/cascade/areaCodeCom';
 import { useHistory } from 'react-router-dom'
+import UploadFile from '../src/upload-file'
 
 
 import { ButtonWithRouter } from './buttonWithRouter'
@@ -55,6 +56,28 @@ const App = () => {
           window.location.href = 'http://localhost:9000/active-cental-system?requestCode=048b318ed8cc571ac117e5f985c27572d058496050ee0a3d61a05c865295b1126f4a468fcbba8d0fa1c51832291496cb6711b0f58a1a0d6905b778cfb57243afa4c4173986d9338d1c8b53e0553da031ecf6845efaf3ccee4f03e17f25abf4008e495abd56db3bf4006a4a&timestamp=1602660894468&req=7ddcce588ce27c8501caf4eb011e7809'
         }}>跳转</Button>
       </div>
+      <div className="pane" >
+        <div className="pane-title" id="OperationHeader">UploadFile</div>
+        <div className="pane-body">
+          <div className="pane-inline" >
+            <UploadFile
+              params={{
+                applyType: 1
+              }}
+              getFileData={(params) => {
+                console.log('params', params)
+              }}
+              downContent={
+                <a href={`${window.serverUrl || ''}`}>
+                  下载申请模版
+                </a>
+              }
+            />
+          </div>
+        </div>
+      </div>
+
+
 
 
     </div>

@@ -18,7 +18,7 @@ const AreaCode = (history) => {
       method: 'GET',
       // method: 'POST',
       // url: requestUrl + '/central/instance/region',
-      url: 'http://localhost:3001/JsonData/area-data.json',
+      url: 'http://localhost:3000/JsonData/area-data.json',
       data: { parentAreaCode: code },
       dataType: 'json'
     })
@@ -39,7 +39,7 @@ const AreaCode = (history) => {
     targetOption.loading = true;
     axios({
       method: 'GET',
-      url: 'http://localhost:3001/JsonData/area-data-1.json',
+      url: 'http://localhost:3000/JsonData/area-data-1.json',
       data: { parentAreaCode: targetOption.areaCode }
     })
       .then(response => {
