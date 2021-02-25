@@ -7,6 +7,7 @@ import { Example } from './UseEffect';
 import AreaCode from '../src/cascade/areaCodeCom';
 import { useHistory } from 'react-router-dom'
 import UploadFile from '../src/upload-file'
+import './demo.styl'
 
 
 import { ButtonWithRouter } from './buttonWithRouter'
@@ -22,7 +23,7 @@ const Hello = (props) => {
 const App = () => {
   const history = useHistory()
   return (
-    <div className="App">
+    <div className="App demo">
       <ButtonDefault />
       <FuncButton />
       <AppContext.Provider value={{ userName: '测试共享数据' }}>
